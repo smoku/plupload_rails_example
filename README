@@ -1,0 +1,8 @@
+= Plupload with Rails 3 example application
+
+This sample application shows how to use Plupload with Rails 3. Blog post is avaliable at ...
+
+== Usage
+* clone repo
+* rake db:migrate
+* rails server

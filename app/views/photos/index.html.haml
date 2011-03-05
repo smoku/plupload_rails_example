@@ -1,0 +1,13 @@
+- content_for :head do
+  = stylesheet_link_tag "plupload.queue"
+  = javascript_include_tag "plupload/plupload.full.min", "plupload/jquery.plupload.queue.min"
+  = javascript_tag do
+    = render "plupload.js"
+    
+
+#photos_container
+  = render :partial => "photo", :collection => @photos
+    
+#uploader
+  %p You browser doesn't have HTML5, Flash or Silverlight support.
+

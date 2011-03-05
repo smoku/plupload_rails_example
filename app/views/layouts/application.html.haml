@@ -1,0 +1,13 @@
+!!!
+%html
+  %head
+    %title Plupload example - Rails 3
+    %meta{'http-equiv' => 'Content-Type', :content => 'text/html;charset=utf-8'}
+    = stylesheet_link_tag 'application'
+    = javascript_include_tag "jquery.min", "rails", "application", :cache => "application_all"
+    = csrf_meta_tag
+    = yield :head
+  %body
+    #content
+      #flash= flash_notice if flash.present?
+      = yield
