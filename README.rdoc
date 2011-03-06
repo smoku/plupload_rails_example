@@ -1,6 +1,6 @@
 = Plupload with Rails 3 example application
 
-This sample application shows how to use Plupload with Rails 3. Blog post is avaliable at ...
+This example application shows how to use Plupload with Rails 3. Blog post is available at http://planetrails.com/plupload-with-rails-3
 
 == Usage
 * clone repo
